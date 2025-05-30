@@ -1,0 +1,30 @@
+/* Experiment 1 - Neon Purple Arcane */
+:root {
+    --primary-color: #c770f0;
+    --secondary-color: #30f7c4;
+    --background-color: #0d0d1f;
+    --text-color: #e0e0e0;
+    --timeline-color: #c770f0;
+}
+
+body {
+    font-family: 'Orbitron', sans-serif;
+    background: radial-gradient(circle at top, #1b1b2b, #0d0d1f);
+    color: var(--text-color);
+}
+
+header {
+    background-color: rgba(13, 13, 31, 0.9);
+}
+
+.hero {
+    background: radial-gradient(circle, rgba(199, 112, 240, 0.2) 0%, rgba(48, 247, 196, 0.1) 100%);
+}
+
+.hero-content h1 .highlight {
+    text-shadow: 0 0 5px var(--primary-color), 0 0 10px var(--primary-color);
+}
+
+.btn.primary-btn {
+    box-shadow: 0 0 10px var(--primary-color);
+}
